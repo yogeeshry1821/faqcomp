@@ -14,8 +14,8 @@ const FaqItem = ({faq,index}) => {
     },[]);
     return (
     <div className="sol-val">
-        <div className="faq-sol">
-                <button className={show ? "btn-rotate" : "faq-button"} onClick={handleClick}>&gt;</button>
+            <div className="faq-sol" onClick={handleClick}>
+                <button className={show ? "btn-rotate" : "faq-button"} >&gt;</button>
             <div>
                 <div className="faq-question">{faq.question}</div>
                 {show && <div className="faq-answer">{faq.answer}</div>}
