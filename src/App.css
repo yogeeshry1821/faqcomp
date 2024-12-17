@@ -32,9 +32,40 @@
     animation: logo-spin infinite 20s linear;
   }
 }
+.faq-button {
+  display: flex;
+  align-items: center;
+}
 .faq-question {
   margin-bottom: 1em;
   font-weight: bold;
+  padding: 10px;
+  width: 100%;
+  margin-left: 10px;
+  display: flex;
+  justify-content: left;
+
+  
+}
+.btn-rotate{
+  transform: rotate(90deg);
+}
+.faq-answer{
+  width: 100%;
+  margin-left: 10px;
+}
+.sol-val {
+  background-color: rgb(216, 216, 216);;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 10px;
+}
+.faq-sol {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding-right: 10vw;
+  margin-left: 10px;
 }
 .card {
   padding: 2em;
